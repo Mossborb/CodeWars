@@ -8,5 +8,12 @@ def abbrev_name(name):
     initials = initialList[0] + "." + initialList[1] #Adds initials together
     return initials
 
+def reverse_seq(n):
+    sequenceList = [] #Create an empty List
+    while n > 0: #Iterate through all numbers and add them into a list counting down
+        sequenceList.append(n)
+        n -= 1
+    return sequenceList
 
+print(reverse_seq(5))
 
