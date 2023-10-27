@@ -15,5 +15,12 @@ def reverse_seq(n):
         n -= 1
     return sequenceList
 
-print(reverse_seq(5))
 
+
+def reverse_words(text):
+    reversedString = ""
+    for i in text:
+        reversedString = i + reversedString
+
+    return reversedString
+print(reverse_words("Hello there"))
