@@ -23,4 +23,14 @@ def reverse_words(text):
         reversedString = i + reversedString
 
     return reversedString
-print(reverse_words("Hello there"))
+
+
+def count_sheep(sheep):
+    sheepAmount = 0
+    for i in sheep:
+        if i == True:
+            sheepAmount += 1
+
+    return sheepAmount
+
+
